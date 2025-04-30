@@ -49,22 +49,96 @@
             //    Console.WriteLine(  "-------------------------------------\n"); 
             #endregion
 
+            #region Third problem
+            ////write a program to swap two numbers
+            //Console.WriteLine(  "Enter the first number: ");
+            //int x = int.Parse( Console.ReadLine() );
+            //Console.WriteLine("Enter the second number: ");
+            //int y = Convert.ToInt32( Console.ReadLine() );
 
-            //write a program to swap two numbers
-            Console.WriteLine(  "Enter the first number: ");
-            int x = int.Parse( Console.ReadLine() );
-            Console.WriteLine("Enter the second number: ");
-            int y = Convert.ToInt32( Console.ReadLine() );
+            //Console.WriteLine($"items berfor swap : \n first = {x} \t second = {y}");
 
-            Console.WriteLine($"items berfor swap : \n x = {x} \t y = {y}");
+            //int z = x;
+            //x = y;
+            //y = z;
 
-            int z = x;
-            x = y;
-            y = z;
+            //Console.WriteLine($"items After swap : \n first = {x} \t second = {y}"); 
+            #endregion
 
-            Console.WriteLine($"items After swap : \n x = {x} \t y = {y}");
+            #region Fourth Problem
+            //write a program to read a number and print if positive or negative or zero
+            // Console.WriteLine(  "enter the item to check: ");
+            //var num =  int.Parse( Console.ReadLine());
 
+            // if (num == 0)
+            //     Console.WriteLine(" the number is zero");
+            // else if (num < 0)
+            //     Console.WriteLine(" the number is negative");
+            // else Console.WriteLine("the number is positive"); 
+            #endregion
+
+            #region Fiveth Problem
+
+            // wite a program to check if the number is odd or even
+            //Console.WriteLine(  " enter the item to check:");
+            //int num = Convert.ToInt32( Console.ReadLine() );
+            //if ( num %2== 0 )
+            //    Console.WriteLine(  $" the number {num} is even");
+            //else
+            //    Console.WriteLine($" the number" +
+            //        $"{num} is odd");
+
+            #endregion
+
+            #region Sixth Problem
+            // write program that take three inputs and print the largest of them
+            //Console.WriteLine( "enter the fist number: " );
+            //var num1= int.Parse( Console.ReadLine() );
+            //Console.WriteLine("enter the second number: ");
+
+            //var num2 = Convert.ToInt32( Console.ReadLine() );
+            //Console.WriteLine("enter the third number: ");
+            //var num3 = Convert.ToInt32( Console.ReadLine() );   
+
+            //if(num1 > num2)
+            //{
+            //    if(num1 > num3)
+            //        Console.WriteLine(  $" the number {num1} is the largest");
+            //    else
+            //        Console.WriteLine($" the number {num3} is the largest");
+            //}
+            //else 
+            //{
+            //    if(num2 > num3)
+            //        Console.WriteLine($" the number {num2} is the largest");
+            //    else
+            //        Console.WriteLine($" the number {num3} is the largest");
+
+            //} 
+            #endregion
+
+            #region Siventh Problem
+            // write program to check if string start with latter A
+            //Console.WriteLine(  "enter your firt name:");
+            //string name = Console.ReadLine();
+            //if (name.StartsWith('A') | name.StartsWith('a'))
+            //    Console.WriteLine(  "the name starts with letter A");
+            //else
+            //    Console.WriteLine(  " not start with A"); 
+            #endregion
+            
+            #region Eighth Problem
+
+            //write program to print good morning if AM and good evening in PM
+            //string time = DateTime.Now.ToString("hh:mm:ss tt");
+            //Console.WriteLine(  time);
+            //if (time.Contains("PM"))
+            //    Console.WriteLine("good evening");
+            //else
+            //    Console.WriteLine(  "good morning"); 
+            #endregion
         }
+
 
 
 
